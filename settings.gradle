@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://repo.spring.io/release' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'jtorrent'
+
+include ':jbencode', ':client'
